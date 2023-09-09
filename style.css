@@ -1,0 +1,174 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: blueviolet;
+    font-family: open-sans;
+    font-weight: 400;
+    color: white;
+    width: 100%;
+}
+
+header{
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img{
+    width: 30vw;
+    margin: 10vw 7vw;
+}
+
+.cimg img{
+    width: 80vw;
+    margin: 6vw 10vw;
+}
+
+h1{
+    font-size: 7vw;
+    margin: 7vw 10vw;
+    text-align: center;
+}
+
+p {
+    margin: 8vw 13vw;
+    font-weight: 400;
+    text-align: center;
+    line-height: 5.5vw;
+    letter-spacing: .1vw;
+}
+
+.btn {
+    width: 50vw;
+    padding: 3vw;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    margin: 1vw 25vw;
+    transition: .3s;
+}
+
+.btn:hover {
+    color:white;
+    background-color: violet;
+    cursor: pointer;
+}
+
+.social-icon {
+    margin: 5vh 15vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.social-icon a {
+    color: white;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+.social-icon a i{
+    border: 2px solid white;
+    border-radius: 10vw;
+    padding: 2vw;
+}
+
+.social-icon a i:hover{
+    cursor: pointer;
+    color: violet;
+    border-color: violet;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.attribution {
+    font-size: 2vw;
+    font-weight: 500;
+    color: white;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media only screen and (min-width: 768px) {
+   body{
+   }
+
+   header img{
+    width: 18vw;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+   }
+
+   header{
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+   }
+   
+   .cimg img{
+    width: 45vw;
+    margin: 5vw 6vw;
+   }
+
+   .cimg{ 
+    width: 50%;
+   }
+   
+   h1{
+    font-size: 4vw;
+    width: 40%;
+    position: relative;
+    left: 45.5vw;
+    bottom: 42vw;
+    margin-bottom: 2vw;
+    text-align: left;
+   }
+
+   p{
+    width: 40%;
+    position: relative;
+    left: 43vw;
+    bottom: 43vw;
+    font-size: 1.4vw;
+    line-height: 2vw;
+    margin-top: 3vw;
+    text-align: left;
+    letter-spacing: .03vw;
+   }
+
+   .btn{
+    position: relative;
+    left: 54.8vw;
+    bottom: 50vw;
+    margin: 1vw 1vw;
+    width: 20vw;
+    padding: 1vw 2vw;
+}
+   .social-icon{
+     position: relative;
+     left: 80vw;
+     bottom: 46vw;
+     margin: 1vw 1vw;
+     width: 15%;
+   }
+
+   .social-icon a i{
+      padding: .5vw;
+   }
+
+   .social-icon a{
+    width: 1vw;
+   }
+
+   .attribution{
+    font-size: 1vw;
+    position:relative;
+    left: 20vw;
+    text-align: center;
+   }
+}
